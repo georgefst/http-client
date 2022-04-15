@@ -86,7 +86,7 @@ module Network.HTTP.Client
       -- ** Tracking redirect history
     , withResponseHistory
     , responseOpenHistory
-    , HistoriedResponse
+    , HistoriedResponse(HistoriedResponse)
     , hrRedirects
     , hrFinalRequest
     , hrFinalResponse
